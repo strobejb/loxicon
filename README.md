@@ -30,7 +30,8 @@ Preparing your SVG icons requires saving them all together in a single directory
 The index is used to generate the UUID for each icon, which the Miniserver uses to identify icons used in the App. If the index is not present as part of the filename, Loxicon will instead use a simple incrementing UUID image it encounters, which might result in the UUIDs changing when new custom images are introduced. 
 
 To ensure that each custom icon has a static UUID, the index should be prefixed to each filename. An example is shown below, with the resulting `IconLibrary.zip` that is generated when Loxicon is run:
-![](icons.png)
+
+![](https://github.com/strobejb/loxicon/blob/assets/icons.png)
 
 ### Icon Generation
 
