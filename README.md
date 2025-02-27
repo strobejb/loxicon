@@ -30,7 +30,9 @@ The index is used to generate the UUID for each icon, which the Miniserver uses 
 
 To ensure that each custom icon has a static UUID, the index should be prefixed to each filename. An example is shown below, with the resulting `IconLibrary.zip` that is generated when Loxicon is run:
 
-![](https://github.com/strobejb/loxicon/blob/assets/icons.png)
+<p align="center">
+<img src="https://github.com/strobejb/loxicon/blob/assets/icons.png" />
+</p>
 
 ### Icon Generation
 
@@ -42,8 +44,9 @@ https://www.svgminify.com/
 
 You can always explore the IconLibrary.zip (and the IconFilled directory inside the zip) to see what the default SVG images look like. Here are some examples:
 
+<p align="center">
 <img src="https://github.com/strobejb/loxicon/blob/assets/icons/1.bunny-rabbit.svg" width="128px"/> <img src="https://github.com/strobejb/loxicon/blob/assets/icons/2.xmas-tree.svg" width="128px"/>
-
+</p>
 
 ## Usage
 
@@ -63,13 +66,12 @@ You can always explore the IconLibrary.zip (and the IconFilled directory inside 
 
 ## Example
 
-Once the icon library has been updated in Loxone Config, the icons are selectable through the user-interface as usual:
+Once the icon library has been updated in Loxone Config, the icons are selectable through the user-interface as usual. The icons can then be assigned to a Room or Category, and the colours customized at the same time:
 
-<img src="https://github.com/strobejb/loxicon/blob/assets/icon-library.png" width="75%" align="center" />
-
-The icons can then be assigned to a Room or Category, and the colours customized at the same time:
-
-<img src="https://github.com/strobejb/loxicon/blob/assets/loxone-app.png" width="75%" align="center" />
+<p align="center">
+   <img src="https://github.com/strobejb/loxicon/blob/assets/loxone-app.png" width="48%" hspace="5"/>
+<img src="https://github.com/strobejb/loxicon/blob/assets/icon-library.png" width="48%"  hspace="5"/> 
+</p>
 
 ## Advanced usage
 
