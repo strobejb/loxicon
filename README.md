@@ -42,9 +42,7 @@ https://www.svgminify.com/
 
 You can always explore the IconLibrary.zip (and the IconFilled directory inside the zip) to see what the default SVG images look like. Here are some examples:
 
-
-![](https://github.com/strobejb/loxicon/blob/assets/icons/1.bunny-rabbit.png)
-![](https://github.com/strobejb/loxicon/blob/assets/icons/1.xmas-tree.png)
+<img src="https://github.com/strobejb/loxicon/blob/assets/icons/1.bunny-rabbit.svg" width="128px"/> <img src="https://github.com/strobejb/loxicon/blob/assets/icons/2.xmas-tree.svg" width="128px"/>
 
 
 ## Usage
@@ -67,11 +65,11 @@ You can always explore the IconLibrary.zip (and the IconFilled directory inside 
 
 Once the icon library has been updated in Loxone Config, the icons are selectable through the user-interface as usual:
 
-![](https://github.com/strobejb/loxicon/blob/assets/icon-library.png)
+<img src="https://github.com/strobejb/loxicon/blob/assets/icon-library.png" width="75%" align="center" />
 
 The icons can then be assigned to a Room or Category, and the colours customized at the same time:
 
-![](https://github.com/strobejb/loxicon/blob/assets/loxone-app.png)
+<img src="https://github.com/strobejb/loxicon/blob/assets/loxone-app.png" width="75%" align="center" />
 
 ## Advanced usage
 
