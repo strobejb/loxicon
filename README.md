@@ -36,10 +36,14 @@ To ensure that each custom icon has a static UUID, the index should be prefixed 
 
 ### Icon Generation
 
-I found the following tool very useful in converting PNG to high-quality SVG images: https://convertio.co
+I found the following tool very useful in converting PNG to high-quality SVG images: 
+<br>
+https://convertio.co
 
-To optimize the SVGs (removing any unecessary artifacts) to ensure they are compatible with the Miniserver, the following tools may also be useful
+To optimize the SVGs (removing any unecessary artifacts) to ensure they are compatible with the Miniserver, the following tools may also be useful:
+
 https://svgoptimizer.com/
+<br>
 https://www.svgminify.com/
 
 You can always explore the IconLibrary.zip (and the IconFilled directory inside the zip) to see what the default SVG images look like. Here are some examples:
