@@ -23,9 +23,8 @@ Loxicon requires Python 3.x, and is tested with 3.13 on Windows 11. There are ju
 
 Preparing your SVG icons requires saving them all together in a single directory. It is recommended to use a naming scheme that prefixes an _index_ and a dot at the start of each filename:
 
-* `1.custom-icon.svg`
-* `2.another-custom-one.svg`
-* `3.and-another.svg`
+* `1.bunny-rabbit.svg`
+* `2.xmas-tree.svg`
 
 The index is used to generate the UUID for each icon, which the Miniserver uses to identify icons used in the App. If the index is not present as part of the filename, Loxicon will instead use a simple incrementing UUID image it encounters, which might result in the UUIDs changing when new custom images are introduced. 
 
@@ -41,7 +40,12 @@ To optimize the SVGs (removing any unecessary artifacts) to ensure they are comp
 https://svgoptimizer.com/
 https://www.svgminify.com/
 
-You can always explore the IconLibrary.zip (and the IconFilled directory inside the zip) to see what the default SVG images look like.
+You can always explore the IconLibrary.zip (and the IconFilled directory inside the zip) to see what the default SVG images look like. Here are some examples:
+
+
+![](https://github.com/strobejb/loxicon/blob/assets/icons/1.bunny-rabbit.png)
+![](https://github.com/strobejb/loxicon/blob/assets/icons/1.xmas-tree.png)
+
 
 ## Usage
 
@@ -58,6 +62,16 @@ You can always explore the IconLibrary.zip (and the IconFilled directory inside 
 
 4. Restart Loxone Config. The icons will be available to select through the configuration UI. 
 5. Restart the Miniserver. The icons will only appear in the Loxone app when this last step is done.
+
+## Example
+
+Once the icon library has been updated in Loxone Config, the icons are selectable through the user-interface as usual:
+
+![](https://github.com/strobejb/loxicon/blob/assets/icon-library.png)
+
+The icons can then be assigned to a Room or Category, and the colours customized at the same time:
+
+![](https://github.com/strobejb/loxicon/blob/assets/loxone-app.png)
 
 ## Advanced usage
 
