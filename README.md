@@ -65,8 +65,12 @@ You can always explore the IconLibrary.zip (and the IconFilled directory inside 
 
     `%ProgramData%\Loxone\Loxone Config <latest-version>`
 
-4. Restart Loxone Config. The icons will be available to select through the configuration UI. 
-5. Restart the Miniserver. The icons will only appear in the Loxone app when this last step is done.
+4. Restart Loxone Config. The icons will be available to select through the configuration UI.
+5. FTP/upload the icon library to the Miniserver:
+
+   `/sys/IconLibrary.zip`
+
+6. Restart the Miniserver. The icons will only appear in the Loxone app when this last step is done.
 
 ## Example
 
