@@ -48,7 +48,7 @@ def add_icon_xml(ixml, iconName, index, tags, line, filled, force=False):
     existing = iconRoot.find(f'Icon[@Id="{iconName}"]')
 
     if existing is not None and force is False:
-        print(f'Skipping: {existing.attrib['Id']}')
+        print(f'Skipping: {existing.attrib["Id"]}')
         return None
 
     newIcon = ET.Element('Icon', 
@@ -68,7 +68,7 @@ def add_icon_xml(ixml, iconName, index, tags, line, filled, force=False):
 
 def add_icons_to_library(zf, iconList, tags=[], line=True, filled=True, force=False, languages=['']):
 
-    libraryXMLNames = [f'IconLibrary{'_' if lang else ''}{lang}.xml' for lang in languages]
+    libraryXMLNames = [f'IconLibrary{"_" if lang else ""}{lang}.xml' for lang in languages]
 
     #
     #   Add the icon resources
